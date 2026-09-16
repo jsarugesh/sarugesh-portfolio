@@ -2986,3 +2986,11 @@ html {
     font-size: 11px;
     letter-spacing: 0.5px;
 }
+@media (max-width: 650px) {
+    html,
+    body {
+        width: 100%;
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Sarugesh J | Interactive Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+   <header class="navbar">
+
+    <div class="logo">
+        SJ<span>.</span>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle">
+        ☰
+    </button>
+
+    <ul class="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </header>
+
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                Hello, I'm
+            </p>
+
+            <h1>
+                Sarugesh <span>J</span>
+            </h1>
+
+          <h2 class="typing-role">
+    <span id="typingText"></span>
+</h2>
+            <p class="hero-description">
+                I am a Computer Science Engineering student interested in
+                software development and cybersecurity. I enjoy building
+                practical projects, learning new technologies and solving
+                problems through code.
+            </p>
+
+           <div class="buttons">
+
+    <a href="#projects" class="btn primary-btn">
+        View My Work →
+    </a>
+
+    <a href="#contact" class="btn secondary-btn">
+        Contact Me
+    </a>
+
+    <a href="resume/Sarugesh-J-Resume.pdf"
+       download="Sarugesh-J-Resume.pdf"
+       class="btn secondary-btn">
+        Download Resume
+    </a>
+
+</div>
+
+        </div>
+
+
+        <!-- CHARACTER -->
+
+        <div class="character-container">
+
+            <div class="orbit"></div>
+
+            <div class="character-circle">
+
+                <div class="character-stage">
+
+                    <img
+                        src="images/sarugesh-character.png"
+                        alt="Animated cartoon version of Sarugesh"
+                        class="sarugesh-character"
+                    >
+
+                    <img
+                        src="images/mouth-neutral.png"
+                        class="character-mouth"
+                        id="characterMouth"
+                        alt=""
+                    >
+
+                    <div class="talking-indicator">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="character-speech"
+                 id="characterSpeech">
+
+                Hello! I'm Sarugesh J 👋
+
+            </div>
+
+
+            <button class="talk-button"
+                    id="talkButton">
+
+                ▶ Talk to Me
+
+            </button>
+
+        </div>
+        <div class="scroll-indicator">
+    <span>Scroll to explore</span>
+    <div class="scroll-arrow">↓</div>
+</div>
+
+    </section>
+
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about">
+
+        <div class="section-title">
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+            <p>
+                A little about me, my interests and my journey in technology.
+            </p>
+
+        </div>
+
+
+        <div class="about-container">
+
+            <div class="about-content">
+
+                <h3>
+                    Hello, I'm <span>Sarugesh</span> 👋
+                </h3>
+
+                <p>
+                    I am a Computer Science Engineering student with an
+                    interest in software development and cybersecurity.
+                    I enjoy learning new technologies and applying my
+                    knowledge by building practical projects.
+                </p>
+
+                <p>
+                    I have worked on projects involving web development,
+                    IoT-based health monitoring and cybersecurity. I am
+                    currently working on my final-year Intrusion Detection
+                    System project, where my contribution focuses on
+                    backend development and dashboard implementation.
+                </p>
+
+                <p>
+                    I believe in learning by building and improving my
+                    technical skills through hands-on experience. My goal
+                    is to start my career in the IT industry and continue
+                    growing as a software professional.
+                </p>
+
+            </div>
+
+
+            <div class="about-details">
+
+                <div class="about-detail-card">
+
+                    <span>🎓</span>
+
+                    <div>
+                        <h4>Education</h4>
+                        <p>B.E. Computer Science Engineering</p>
+                    </div>
+
+                </div>
+
+
+                <div class="about-detail-card">
+
+                    <span>💻</span>
+
+                    <div>
+                        <h4>Focus</h4>
+                        <p>Software Development & Cybersecurity</p>
+                    </div>
+
+                </div>
+
+
+                <div class="about-detail-card">
+
+                    <span>⚙️</span>
+
+                    <div>
+                        <h4>Currently Working On</h4>
+                        <p>Intrusion Detection System</p>
+                    </div>
+
+                </div>
+
+
+                <div class="about-detail-card">
+
+                    <span>🚀</span>
+
+                    <div>
+                        <h4>Career Goal</h4>
+                        <p>Grow as a Software Professional</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section id="skills">
+
+        <div class="section-title">
+
+            <h2>
+                My <span>Skills</span>
+            </h2>
+
+            <p>
+                Technologies and tools I use while learning and building projects.
+            </p>
+
+        </div>
+
+
+        <div class="skills-container">
+
+
+            <div class="skill-category">
+
+                <h3>Programming Languages</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span class="skill-icon">☕</span>
+                        <h4>Java</h4>
+                        <p>Programming</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">©</span>
+                        <h4>C</h4>
+                        <p>Programming</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🐍</span>
+                        <h4>Python</h4>
+                        <p>Basic</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>Web Technologies</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🌐</span>
+                        <h4>HTML</h4>
+                        <p>Web Development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">⚡</span>
+                        <h4>JavaScript</h4>
+                        <p>Web Development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🍃</span>
+                        <h4>Spring Boot</h4>
+                        <p>Backend Development</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>Database & Tools</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🗄️</span>
+                        <h4>MySQL</h4>
+                        <p>Database</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🐙</span>
+                        <h4>GitHub</h4>
+                        <p>Version Control</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">🤖</span>
+                        <h4>Claude</h4>
+                        <p>AI Tool</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         EDUCATION
+    ========================== -->
+
+    <section id="education">
+
+        <div class="section-title">
+
+            <h2>
+                My <span>Education</span>
+            </h2>
+
+            <p>
+                My academic journey and educational background.
+            </p>
+
+        </div>
+
+
+        <div class="education-container">
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🎓
+                </div>
+
+                <div class="education-content">
+
+                    <span class="education-year">
+                        2023 - 2027
+                    </span>
+
+                    <h3>
+                        B.E. Computer Science and Engineering
+                    </h3>
+
+                    <h4>
+                        Dhanalakshmi Srinivasan Engineering College
+                    </h4>
+
+                    <p>
+                        Currently pursuing my Bachelor of Engineering in
+                        Computer Science and Engineering while developing
+                        my programming, software development and
+                        cybersecurity skills.
+                    </p>
+
+                    <div class="education-result">
+                        CGPA: <strong>7.93</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🏫
+                </div>
+
+                <div class="education-content">
+
+                    <span class="education-year">
+                        Higher Secondary
+                    </span>
+
+                    <h3>
+                        12th Standard
+                    </h3>
+
+                    <h4>
+                        Sri Ramakrishna Boys Matric. Hr. Sec. School
+                    </h4>
+
+                    <p>
+                        Completed my higher secondary education with a
+                        strong academic foundation before pursuing
+                        Computer Science Engineering.
+                    </p>
+
+                    <div class="education-result">
+                        Percentage: <strong>88.3%</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CERTIFICATIONS
+    ========================== -->
+
+    <section id="certifications">
+
+        <div class="section-title">
+
+            <h2>
+                My <span>Certifications</span>
+            </h2>
+
+            <p>
+                Certifications and courses I have completed to improve
+                my technical knowledge and skills.
+            </p>
+
+        </div>
+
+
+        <div class="certifications-container">
+
+            <div class="certification-card">
+
+                <div class="certification-icon">
+                    🏆
+                </div>
+
+                <div class="certification-content">
+
+                    <span class="certification-type">
+                        Professional Certification
+                    </span>
+
+                    <h3>
+                        Celonis Certificate Course
+                    </h3>
+
+                    <p>
+                        Completed a Celonis certificate course and gained
+                        knowledge about process mining and related concepts.
+                    </p>
+
+                    <div class="certification-status">
+                        ✓ Completed
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section id="projects">
+
+        <div class="section-title">
+
+            <h2>
+                My <span>Projects</span>
+            </h2>
+
+            <p>
+                Explore some of the projects I have worked on and the
+                technologies I have used.
+            </p>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🩺
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Health Monitoring System
+                    </h3>
+
+                    <p>
+                        An IoT-based health monitoring system designed to
+                        monitor patient health parameters using sensors
+                        and display the collected information for monitoring.
+                    </p>
+
+                    <div class="project-role">
+                        <strong>My Role:</strong>
+                        Project Demonstration & Presentation
+                    </div>
+
+                    <div class="project-tech">
+
+                        <span>IoT</span>
+                        <span>Java</span>
+                        <span>MongoDB</span>
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                   <div class="project-buttons">
+    <button class="project-btn details-btn"
+            data-project="health">
+        View Details
+    </button>
+
+    <span class="project-status">
+        Project Repository Coming Soon
+    </span>
+</div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🛡️
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Cybersecurity Website
+                    </h3>
+
+                    <p>
+                        An interactive cybersecurity website created to
+                        present cybersecurity concepts, information and
+                        security-related content through an engaging
+                        web interface.
+                    </p>
+
+                    <div class="project-role">
+                        <strong>My Role:</strong>
+                        Full Website Development
+                    </div>
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                   <div class="project-buttons">
+    <button class="project-btn details-btn"
+            data-project="cybersecurity">
+        View Details
+    </button>
+
+    <a href="https://github.com/jsarugesh/cybersecurity.git"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="project-btn">
+        GitHub
+    </a>
+</div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🔐
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Intrusion Detection System
+                    </h3>
+
+                    <p>
+                        A final-year cybersecurity project focused on
+                        detecting suspicious network activity and
+                        identifying potential security threats. The system
+                        uses Java and Spring Boot for backend services and
+                        provides an interactive dashboard for monitoring
+                        and presenting detection results.
+                    </p>
+
+                    <div class="project-role">
+                        <strong>My Role:</strong>
+                        Backend & Dashboard Development
+                    </div>
+
+                    <div class="project-tech">
+
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>REST API</span>
+                        <span>Backend</span>
+                        <span>Dashboard</span>
+                        <span>Cybersecurity</span>
+
+                    </div>
+
+              <div class="project-buttons">
+    <button class="project-btn details-btn"
+            data-project="ids">
+        View Details
+    </button>
+
+    <span class="project-status">
+        Project Repository Coming Soon
+    </span>
+</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         RESUME
+    ========================== -->
+
+    <section id="resume"
+             class="resume-section">
+
+        <div class="section-title">
+
+            <h2>
+                My <span>Resume</span>
+            </h2>
+
+            <p>
+                Take a look at my resume and learn more about my
+                skills and experience.
+            </p>
+
+        </div>
+
+
+        <div class="resume-content">
+
+            <div class="resume-card">
+
+                <div class="resume-icon">
+                    📄
+                </div>
+
+                <h3>
+                    Sarugesh J - Resume
+                </h3>
+
+                <p>
+                    View my resume to know more about my education,
+                    technical skills, projects and career objective.
+                </p>
+
+                <div class="resume-buttons">
+
+                    <a
+                        href="resume/Sarugesh-J-Resume.pdf"
+                        target="_blank"
+                        class="resume-btn view-resume">
+
+                        👁 View Resume
+
+                    </a>
+
+                    <a
+                        href="resume/Sarugesh-J-Resume.pdf"
+                        download="Sarugesh-J-Resume.pdf"
+                        class="resume-btn download-resume">
+
+                        ⬇ Download Resume
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact">
+
+        <div class="section-title">
+
+            <h2>
+                Contact <span>Me</span>
+            </h2>
+
+            <p>
+                Feel free to get in touch with me.
+            </p>
+
+        </div>
+        <div class="availability-status">
+    <span class="status-dot"></span>
+    <span>Open to Opportunities</span>
+</div>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-info">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+                <p>
+                    I'm always interested in learning, building projects
+                    and connecting with people in the technology field.
+                </p>
+
+
+                <<div class="contact-detail">
+    <h3>Email</h3>
+    <p>jsarugesh@gmail.com</p>
+
+    <button id="copyEmailBtn" class="copy-email-btn">
+        📋 Copy Email
+    </button>
+</div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>📱</span>
+
+                    <div>
+                        <h4>Phone</h4>
+                        <a href="tel:+917339174617">
+                            +91 7339174617
+                        </a>
+                    </div>
+
+                </div>
+
+
+ <div class="contact-socials">
+
+    <a href="https://linkedin.com/in/sarugesh-j-09666b314"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-btn">
+        LinkedIn
+    </a>
+
+    <a href="https://github.com/jsarugesh"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-btn">
+        GitHub
+    </a>
+
+</div>
+
+                </div>
+
+            </div>
+
+
+
+            <form
+                id="contactForm"
+                action="https://formspree.io/f/xdeknavq"
+                method="POST"
+                class="contact-form">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Your Message"
+                        required></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="contact-submit">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+                    SJ<span>.</span>
+                </div>
+
+                <p>
+                    Building, learning and growing through technology.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <a
+                    href="https://github.com/jsarugesh"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    GitHub
+
+                </a>
+
+                <a
+                    href="https://linkedin.com/in/sarugesh-j-09666b314"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Sarugesh J. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed & Built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+<!-- Project Details Popup -->
+<div class="project-modal" id="projectModal">
+
+    <div class="project-modal-content">
+
+        <button class="project-modal-close" id="projectModalClose">
+            ×
+        </button>
+
+        <h2 id="modalProjectTitle"></h2>
+
+        <p id="modalProjectDescription"></p>
+
+        <div class="modal-project-info">
+            <h3>Technologies</h3>
+            <div id="modalProjectTech"></div>
+        </div>
+
+        <div class="modal-project-info">
+            <h3>My Role</h3>
+            <p id="modalProjectRole"></p>
+        </div>
+
+    </div>
+
+</div>
+<!-- Back To Top Button -->
+<button id="backToTop" class="back-to-top">
+    ↑
+</button>
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            SJ<span>.</span>
+        </div>
+
+        <p class="footer-text">
+            Building, learning and growing through technology.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="https://linkedin.com/in/sarugesh-j-09666b314"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/jsarugesh"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+        </div>
+
+        <p class="footer-copyright">
+            © 2026 Sarugesh J. All rights reserved.
+        </p>
+        <p class="footer-updated">
+    Last updated: September 2026
+</p>
+
+    </div>
+
+</footer>
+</body>
+
+</html>

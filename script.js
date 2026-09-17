@@ -109,7 +109,7 @@ const characterAudio =
     new Audio("audio/intro.mp3");
 
 const speechText =
-    "Hello! I'm Sarugesh. Welcome to my interactive portfolio!";
+    "Hello! I'm Sarugesh J. Welcome you all to my interactive portfolio!";
 
 
 

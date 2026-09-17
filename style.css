@@ -2823,8 +2823,8 @@ html {
     }
 
     .character-circle {
-        width: min(300px, 86vw);
-        height: min(300px, 86vw);
+        width: min(250px, 86vw);
+        height: min(250px, 86vw);
         margin: 0 auto;
         max-width: none;
     }
@@ -2848,28 +2848,28 @@ html {
     }
 
     .character-mouth {
-        width: 39px;
-        left: 50%;
-        top: 80px;
+        width: 24px;
+        left: 51%;
+        top: 46px;
         transform: translate(-50%, -50%);
     }
 
     .character-speech {
-        width: 90%;
-        max-width: 280px;
+        width: 50%;
+        max-width: 200px;
         right: auto;
         left: 50%;
         top: auto;
-        bottom: 55px;
+        bottom: 40px;
         margin: 0;
         transform: translateX(-50%);
         font-size: 14px;
     }
 
     .talk-button {
-        bottom: 0;
-        margin-top: 15px;
-        font-size: 14px;
+        bottom: 5;
+        margin-top: 5px;
+        font-size: 9px;
     }
 
     .section-title {
@@ -3057,5 +3057,109 @@ html {
 
     .project-modal-content h2 {
         font-size: 23px;
+    }
+}
+/* ========================================
+   MOBILE HERO CHARACTER SPACING FIX
+   Does NOT change character or mouth size
+======================================== */
+
+@media (max-width: 700px) {
+
+    /* Give the character area enough vertical space */
+    .character-container {
+        width: 100%;
+        min-height: 560px;
+        height: 560px;
+        position: relative;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    /* KEEP CHARACTER DIMENSIONS EXACTLY AS THEY ARE */
+    .character-circle {
+        width: min(300px, 86vw);
+        height: min(300px, 86vw);
+
+        margin: 0 auto;
+
+        flex-shrink: 0;
+    }
+
+    /* KEEP CHARACTER IMAGE DIMENSIONS */
+    .sarugesh-character {
+        width: min(360px, 103vw);
+        max-width: none;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    /* KEEP MOUTH DIMENSIONS */
+    .character-mouth {
+        width: 24px;
+
+        left: 51%;
+        top: 71px;
+
+        transform: translate(-50%, -50%);
+    }
+
+    /* SPEECH BOX - MOVE BELOW CHARACTER */
+    .character-speech {
+        position: absolute;
+
+        width: 90%;
+        max-width: 280px;
+
+        left: 50%;
+        right: auto;
+
+        top: 315px;
+        bottom: auto;
+
+        margin: 0;
+
+        transform: translateX(-50%);
+
+        font-size: 14px;
+        line-height: 1.5;
+
+        z-index: 10;
+    }
+
+    /* TALK BUTTON - MOVE BELOW SPEECH BOX */
+    .talk-button {
+        position: absolute;
+
+        left: 50%;
+
+        top: 425px;
+        bottom: auto;
+
+        margin: 0;
+
+        transform: translateX(-50%);
+
+        z-index: 10;
+    }
+
+    /* Keep hover transform working */
+    .talk-button:hover {
+        transform: translateX(-50%) scale(1.05);
+    }
+
+    /* SCROLL INDICATOR - KEEP IT BELOW EVERYTHING */
+    .scroll-indicator {
+        bottom: 18px;
+        z-index: 20;
+    }
+
+    .scroll-arrow {
+        margin-top: 6px;
     }
 }
